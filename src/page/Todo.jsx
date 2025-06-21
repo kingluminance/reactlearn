@@ -6,7 +6,7 @@ import ToDoInput from "../components/ToDoInput";
 function ToDo() {
   let navigate = useNavigate();
 
-  let [toDo, setToDo] = useState(["a", "s"]);
+
   return (
     <>
       <div className="nav-bar">

@@ -1,3 +1,4 @@
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/App.css";
 
@@ -14,6 +15,13 @@ function Home() {
         }}
       >
         ToDo 페이지
+      </button>
+      <button
+        onClick={() => {
+          navigate("/animation");
+        }}
+      >
+        애니메이션 박물관
       </button>
     </>
   );
