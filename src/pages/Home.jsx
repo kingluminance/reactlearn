@@ -23,6 +23,13 @@ function Home() {
       >
         애니메이션 박물관
       </button>
+      <button
+        onClick={() => {
+          navigate("/avatar");
+        }}
+      >
+        구현
+      </button>
     </>
   );
 }
